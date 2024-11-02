@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clicktest.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/25.0.0/tween.umd.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="real.js" defer></script>
+</head>
+<body>
+    <div id="tip">
+        Tooltip Content
+    </div>
+    <div id="menuCont">
+        <img id="home" src="/examples/textures/IMG_7191.png">
+        <div id="nameSmall">International Dispute</div>
+        <div id="nameBig">International <br> Dispute</div>
+    </div>
+    <hr>
+    <div id="mainCont">
+        <div id="pannel">
+            <div id="category"><img src="/examples/textures/IMG_7493.PNG"></div>
+            <div id="circleCont">
+                <div class="btnCont">
+                    <div class="btn" id="redBtn">
+                        <div class="color" id="circleRed"></div>
+                    </div>
+                    <h4>All-out War</h4>
+                </div>
+                <div class="btnCont">
+                    <div class="btn" id="orangeBtn">
+                        <div class="color" id="circleOrange"></div>
+                    </div>
+                    <h4>Civil War</h4>
+                </div>
+                <div class="btnCont">
+                    <div class="btn" id="yellowBtn">
+                        <div class="color" id="circleYellow"></div>
+                    </div>
+                    <h4>Conflict</h4>
+                </div>
+            </div>
+        </div>
+        <div id="webdolRayCaster"></div>
+        <div id="scrollCont">
+            <div id="scrollCont2">
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+                <div class="scroll size1">Israel</div>
+                <div class="scroll size2">Ukraine</div>
+                <div class="scroll size3">Afghanistan</div>
+                <div class="scroll size2">Nigeria</div>
+                <div class="scroll size1">Myanmar</div>
+                <div class="scroll dummy">Somalia</div>
+                <div class="scroll dummy">Yemen</div>
+                <div class="scroll dummy">Kashmir</div>
+                <div class="scroll dummy">Mexico</div>
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+                <div class="scroll dummy"></div>
+            </div>
+        </div>
+        <div id="glassCont" >
+            <div id="iconCont">
+                <img id="downIcon" src="/examples/textures/IMG_7495.PNG" alt="" srcset="">
+            </div>
+            <div id="articleCont">
+                <div id="glassVer2">
+                    <img src="/examples/image/TRANSE1.png" class="glass" id="glass1">
+                    <img src="/examples/image/TRANSE3.png" class="glass" id="glass2">
+                </div>
+                <div id="imgCont">
+                    <img src="/examples/image/APGAN_TALEBAN.png" class="articleImg" id="articleImg1">
+                    <img src="/examples/image/KASUMIR_PAKIST.png" class="articleImg" id="articleImg2">
+                </div>
+                <div id="textCont">
+                    <h1>Title TextTitle Text</h1>
+                    <br>
+                    <br>
+                    <h3>SubtitleSubtitleSubtitleSubtitle</h3>
+                    <br>
+                    <br>
+                    <h5> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                    </h5>
+                </div>
+            </div>
+            <div id="bg-video">
+                <div id="gradation"></div>
+                <video class="bg-video__content" id="myVideo" autoplay muted loop src="vid/3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

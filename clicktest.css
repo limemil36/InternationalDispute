@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    outline: 0;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+html ::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: black;
+}
+html ::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
+
+
+
+body{
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.97);
+    font-size: 10px;
+}
+
+#menuCont{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 3;
+    opacity: 1;
+    top: 0px;
+    transition-duration: 1s;
+    display: flex;
+}
+
+#home{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    transition-duration: 1s;
+    top: -50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#nameSmall{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-left: 40px;
+    position: relative;
+    transition-duration: 1s;
+    opacity: 1;
+    top: -50px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#nameBig{
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 4.5rem;
+    color: white;
+    position: absolute;
+    top: 250px;
+    margin: auto;
+    text-align: center;
+    transition-duration: 1s;
+    letter-spacing: 1.5rem;
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 100vh;
+    z-index: 2;
+    transition-duration: 1s;
+
+}
+
+
+#mainCont{
+    display: flex;
+    z-index: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#webdolRayCaster{
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition-duration: 0.3s;
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+#pannel{
+    width: 12%;
+    height: 100vh;
+    z-index: 2;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -220px;
+    transition-duration: 0.3s;
+}
+
+
+#category{
+    width: 43px;
+    height: 43px;
+    left: 15px;
+    position: absolute;
+    top: 60%;
+    z-index: -10;
+    cursor: pointer;
+    letter-spacing: 0.8rem;
+    transition-duration: .3s;
+    transform: scaleX(100%);
+}
+
+.btnCont{
+    display: flex;
+}
+
+#circleCont{
+    width: 200px;
+    height: 15%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 50px;
+    height: 20px;
+    border-radius: 20px 20px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+#redBtn{
+    border: solid 2px red;
+    background-color: red;
+}
+#orangeBtn{
+    border: solid 2px #ffa500;
+    background-color: orange;
+}
+#yellowBtn{
+    border: solid 2px #ffff00;
+    background-color: yellow;
+}
+
+.color{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    margin-left: 35px;
+    background-color: black;
+}
+
+h4{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 20px;
+    transition-duration: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#scrollCont{
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    transition-duration: 0.3s;
+}
+
+#scrollCont2{
+    width: 240px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    overflow: hidden;
+}
+
+.scroll{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: right;
+    transition-duration: 0.3s;
+    height: 90px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.size1{font-weight: 300; font-size: 0.6rem;}
+.size2{font-weight: 500; font-size: 1rem;}
+.size3{font-weight: 700; font-size: 2.5rem;}
+.dummy{font-size: 0rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#glassCont{
+    height: 100vh;
+    width: 1px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    z-index: 9;
+}
+#articleCont{
+    position: absolute;
+    top: 12%;
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 4;
+}
+#glassVer2{
+    position: absolute;
+    width: 80%;
+    top: -10%;
+    left: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 6;
+}
+#imgCont{
+    position: absolute;
+    width: 80%;
+    top: -10%;
+    left: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 5;
+
+}
+.glass{
+    width: 50%;
+    height: 50%;
+    transition-duration: 0.3s;
+}
+#glass1{opacity: 1;}
+#glass2{opacity: 1; 
+    width: 45%;}
+
+.articleImg{
+    width: 50%;
+    height: 50%;
+    transition-duration: 0.3s;
+}
+#articleImg1{opacity: 0;}
+#articleImg2{opacity: 0; width: 45%;}
+
+#iconCont{
+    z-index: 13;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+}
+#downIcon{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#textCont{
+    width: 80%;
+    height: 100vh;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+h1{width: 100%; font-size: 3.8rem; font-weight: 800; position: absolute; top: 100%; text-align: left;    transition-duration: 0.3s;}
+h3{font-size: 1.5rem; font-weight: 500; position: absolute; top: 115%; transition-duration: .3s;line-height: 3rem;}
+h5{font-size: 1rem; font-weight: 300; position: absolute; top: 135%; line-height: 1.8rem;}
+
+
+
+
+
+
+
+
+#bg-video {
+    position:fixed;
+    height: 100%;
+    right: 0px;
+    width: 0%;
+    opacity: 0.2;
+}
+#gradation{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to right, #080808 100%, rgba(0,0,0, 0) 70%);
+    transition-duration: 3s;
+}
+.bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;     
+}
+
+
+
+
+
+
+#tip{
+    height: 20px;
+    position: absolute; 
+    background: rgba(50, 50, 50, 0.8); 
+    color: white; 
+    padding: 8px; 
+    border-radius: 4px; 
+    font-size: 0.7rem;
+    z-index: 12;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
